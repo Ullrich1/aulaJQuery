@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teste</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/jquery-3.7.1.js"></script>
+    <script>
+        $(document).ready(function () {
+            $("button").click(function () {
+                $("div").animate({ left: '700px'});
+            });
+        });
+    </script>
+</head>
+
+<body>
+    CLique no botao para deslocar o elemento.
+    <div style="background: red; height:10px;position: absolute;">
+        <button>Clique aqui</button>
+    </div>
+</body>
+
+</html>
